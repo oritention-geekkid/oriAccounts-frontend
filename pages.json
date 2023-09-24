@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+			
+			}
+		}
+	    ,{
+            "path" : "pages/stats",
+            "style": {
+
+            }
+            
+        }
+        ,{
+            "path" : "pages/account",
+            "style" :                                                                                    
+            {
+
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#8A8A8A",
+		"selectedColor": "#2B73AF",
+		"borderStyle": "#F0F4F5",
+		"backgroundColor": "#F0F4F5",
+		"list": [{
+			"pagePath": "pages/index",
+			"iconPath": "static/tabbar/account_list_0.png",
+			"selectedIconPath": "static/tabbar/account_list_1.png",
+			"text": "账单"
+		}, {
+			"pagePath": "pages/stats",
+			"iconPath": "static/tabbar/stats_0.png",
+			"selectedIconPath": "static/tabbar/stats_1.png",
+			"text": "统计"
+		}]
+	},
+	"uniIdRouter": {}
+}
